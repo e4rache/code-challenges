@@ -17,6 +17,7 @@ Example Output
 ["Open", "Open", "Senior", "Open", "Open", "Senior"]
 */
 
+
 memberships = members => {
     let memberships = []
     for (i = 0; i < members.length; i++)
@@ -33,7 +34,7 @@ console.log(memberships(members))
 
 // best and shortest answer :
 
-testingOpenOrSenior =
+memberships2 =
     data => data.map(([a, h]) => (a > 54 && h > 7) ? "Senior" : "Open")
 
-console.log(testingOpenOrSenior(members))
+console.log(memberships2(members))

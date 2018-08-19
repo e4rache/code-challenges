@@ -31,7 +31,7 @@ members = [[18, 20], [45, 2], [61, 12], [37, 6], [21, 21], [78, 9]]
 
 console.log(memberships(members))
 
-// best answer :
+// best and shortest answer :
 
 openOrSenior =
     data => data.map(([a, h]) => (a > 54 && h > 7) ? "Senior" : "Open")

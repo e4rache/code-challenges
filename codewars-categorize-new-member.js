@@ -33,7 +33,7 @@ console.log(memberships(members))
 
 // best and shortest answer :
 
-openOrSenior =
+testingOpenOrSenior =
     data => data.map(([a, h]) => (a > 54 && h > 7) ? "Senior" : "Open")
 
-console.log(openOrSenior(members))
+console.log(testingOpenOrSenior(members))
